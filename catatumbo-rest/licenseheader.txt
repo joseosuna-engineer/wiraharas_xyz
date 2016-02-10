@@ -1,0 +1,7 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright 2016 Wiraharas AG.
+<#if licenseLast??>
+${licenseLast}
+</#if>
