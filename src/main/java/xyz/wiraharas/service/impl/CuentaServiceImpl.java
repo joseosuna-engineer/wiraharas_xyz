@@ -1,7 +1,7 @@
-package com.wiraharas.xyz.catatumbo.service.impl;
+package xyz.wiraharas.service.impl;
 
-import com.wiraharas.xyz.catatumbo.entity.Cuenta;
-import com.wiraharas.xyz.catatumbo.service.CuentaService;
+import xyz.wiraharas.entity.Cuenta;
+import xyz.wiraharas.service.CuentaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

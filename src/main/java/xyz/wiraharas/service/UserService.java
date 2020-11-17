@@ -1,6 +1,6 @@
-package com.wiraharas.xyz.catatumbo.service;
+package xyz.wiraharas.service;
 
-import com.wiraharas.xyz.catatumbo.entity.User;
+import xyz.wiraharas.entity.User;
 import java.util.List;
 
 public interface UserService {

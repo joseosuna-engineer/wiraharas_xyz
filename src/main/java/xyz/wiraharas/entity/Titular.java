@@ -1,4 +1,4 @@
-package com.wiraharas.xyz.catatumbo.entity;
+package xyz.wiraharas.entity;
 
 import java.util.Objects;
 

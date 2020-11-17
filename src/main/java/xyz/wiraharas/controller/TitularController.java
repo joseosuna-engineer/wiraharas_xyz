@@ -1,23 +1,23 @@
-package com.wiraharas.xyz.catatumbo.controller;
+package xyz.wiraharas.controller;
 
-import com.wiraharas.xyz.catatumbo.entity.Titular;
-import com.wiraharas.xyz.catatumbo.service.TitularService;
+import xyz.wiraharas.entity.Titular;
+import xyz.wiraharas.service.TitularService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/titular")
 public class TitularController {
 
     @Autowired
     private TitularService titularService;
 
-    @RequestMapping(path = "/{rut}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public @ResponseBody
+    @GetMapping(path = "/{rut}",
+            produces = MediaType.APPLICATION_JSON_VALUE)
     Titular get(@PathVariable String rut) {
         return titularService.get(rut);
     }

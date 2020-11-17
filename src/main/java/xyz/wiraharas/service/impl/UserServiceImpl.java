@@ -1,7 +1,7 @@
-package com.wiraharas.xyz.catatumbo.service.impl;
+package xyz.wiraharas.service.impl;
 
-import com.wiraharas.xyz.catatumbo.entity.User;
-import com.wiraharas.xyz.catatumbo.service.UserService;
+import xyz.wiraharas.entity.User;
+import xyz.wiraharas.service.UserService;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Service;
