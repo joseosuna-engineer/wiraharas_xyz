@@ -1,9 +1,9 @@
 package xyz.wiraharas.service;
 
-import xyz.wiraharas.entity.Titular;
+import xyz.wiraharas.dto.TitularDto;
 
 public interface TitularService {
 
-    public Titular get(String guid);
+    TitularDto get(String guid);
 
 }

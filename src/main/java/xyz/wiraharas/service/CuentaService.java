@@ -1,9 +1,9 @@
 package xyz.wiraharas.service;
 
-import xyz.wiraharas.entity.Cuenta;
+import xyz.wiraharas.dto.CuentaDto;
 
 public interface CuentaService {
 
-    public Cuenta get(String guid);
+    CuentaDto get(String guid);
 
 }
