@@ -1,6 +1,3 @@
-/*
- * Copyright 2016 Wiraharas AG.
- */
 package com.wiraharas.xyz.catatumbo.controller;
 
 import com.wiraharas.xyz.catatumbo.entity.User;
@@ -13,10 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author Jose Osuna (Trebol-IT)
- */
 @RestController
 public class UsuarioController {
 

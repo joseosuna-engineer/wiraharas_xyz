@@ -1,14 +1,7 @@
-/*
- * Copyright 2016 Wiraharas AG.
- */
 package com.wiraharas.xyz.catatumbo.entity;
 
 import java.util.Objects;
 
-/**
- *
- * @author Jose Osuna (Trebol-IT)
- */
 public class Cuenta {
 
     private String rut;
