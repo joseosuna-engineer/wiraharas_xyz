@@ -1,6 +1,3 @@
-/*
- * Copyright 2016 Wiraharas AG.
- */
 package com.wiraharas.xyz.catatumbo.service.impl;
 
 import com.wiraharas.xyz.catatumbo.entity.User;
@@ -9,10 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author Jose Osuna (Trebol-IT)
- */
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -21,9 +14,9 @@ public class UserServiceImpl implements UserService {
         List<User> users = new ArrayList<>();
         User user = new User();
         user.setId(1L);
-        user.setName("Jose");
-        user.setLastName("Osuna");
-        user.setEmail("jose.osuna@wiraharas.xyz");
+        user.setName("John");
+        user.setLastName("Doe");
+        user.setEmail("john.doe@wiraharas.xyz");
         users.add(user);
         return users;
     }

@@ -1,6 +1,3 @@
-/*
- * Copyright 2016 Wiraharas AG.
- */
 package com.wiraharas.xyz.catatumbo.main;
 
 import com.wiraharas.xyz.catatumbo.conf.SpringConfig;
@@ -10,10 +7,6 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-/**
- *
- * @author Jose Osuna (Trebol-IT)
- */
 public class JettyServer {
 
     public static void main(String[] args) throws Exception {
