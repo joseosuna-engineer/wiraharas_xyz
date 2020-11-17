@@ -12,8 +12,8 @@ public class TitularServiceImpl implements TitularService {
     private Titular titular;
 
     @Override
-    public Titular get(String rut) {
-        titular.setRut(rut);
+    public Titular get(String guid) {
+        titular.setRut("40k");
         titular.setId(1L);
         titular.setName("John");
         titular.setLastName("Doe");

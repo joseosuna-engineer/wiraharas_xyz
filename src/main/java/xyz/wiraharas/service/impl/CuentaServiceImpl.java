@@ -12,9 +12,9 @@ public class CuentaServiceImpl implements CuentaService {
     private Cuenta cuenta;
 
     @Override
-    public Cuenta get(String rut) {
+    public Cuenta get(String guid) {
         cuenta.setNumber("34445");
-        cuenta.setRut(rut);
+        cuenta.setRut(guid);
         return cuenta;
     }
 

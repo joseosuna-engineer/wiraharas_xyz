@@ -4,6 +4,6 @@ import xyz.wiraharas.entity.Cuenta;
 
 public interface CuentaService {
 
-    public Cuenta get(String rut);
+    public Cuenta get(String guid);
 
 }
