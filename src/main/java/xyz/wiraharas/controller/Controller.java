@@ -25,19 +25,19 @@ class Controller {
     private UserService userService;
 
     @GetMapping("/cuenta/{guid}")
-    CuentaDto getCuenta(@PathVariable String guid) {
+    public CuentaDto getCuenta(@PathVariable String guid) {
 
         return cuentaService.get(guid);
     }
 
     @GetMapping("/titular/{guid}")
-    TitularDto getTitular(@PathVariable String guid) {
+    public TitularDto getTitular(@PathVariable String guid) {
 
         return titularService.get(guid);
     }
 
     @GetMapping("/usuario")
-    List<UserDto> listAllUsers() {
+    public List<UserDto> listAllUsers() {
 
         return userService.listAll();
     }
