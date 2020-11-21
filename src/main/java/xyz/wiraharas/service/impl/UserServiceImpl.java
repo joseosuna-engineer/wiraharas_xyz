@@ -1,7 +1,7 @@
-package com.wiraharas.xyz.catatumbo.service.impl;
+package xyz.wiraharas.service.impl;
 
-import com.wiraharas.xyz.catatumbo.entity.User;
-import com.wiraharas.xyz.catatumbo.service.UserService;
+import xyz.wiraharas.dto.UserDto;
+import xyz.wiraharas.service.UserService;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Service;
@@ -10,10 +10,9 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     @Override
-    public List<User> listAll() {
-        List<User> users = new ArrayList<>();
-        User user = new User();
-        user.setId(1L);
+    public List<UserDto> listAll() {
+        List<UserDto> users = new ArrayList<>();
+        UserDto user = new UserDto();
         user.setName("John");
         user.setLastName("Doe");
         user.setEmail("john.doe@wiraharas.xyz");
