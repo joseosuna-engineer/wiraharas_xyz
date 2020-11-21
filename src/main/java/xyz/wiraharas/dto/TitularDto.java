@@ -2,10 +2,11 @@ package xyz.wiraharas.dto;
 
 public class TitularDto {
 
+    /**
+     * Only the data I want to show
+     */
     private String name;
     private String lastName;
-    private String email;
-    private String rut;
 
     public TitularDto() {
         super();
@@ -27,20 +28,9 @@ public class TitularDto {
         this.lastName = lastName;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getRut() {
-        return rut;
-    }
-
-    public void setRut(String rut) {
-        this.rut = rut;
+    @Override
+    public String toString() {
+        return "TitularDto{" + "name=" + name + ", lastName=" + lastName + '}';
     }
 
 }

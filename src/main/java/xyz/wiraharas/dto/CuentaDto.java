@@ -2,27 +2,26 @@ package xyz.wiraharas.dto;
 
 public class CuentaDto {
 
-    private String rut;
-    private String number;
+    /**
+     * Only the data I want to show
+     */
+    private String lastDigitsNumber;
 
     public CuentaDto() {
         super();
     }
 
-    public String getRut() {
-        return rut;
+    public String getLastDigitsNumber() {
+        return lastDigitsNumber;
     }
 
-    public void setRut(String rut) {
-        this.rut = rut;
+    public void setLastDigitsNumber(String lastDigitsNumber) {
+        this.lastDigitsNumber = lastDigitsNumber;
     }
 
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
+    @Override
+    public String toString() {
+        return "CuentaDto{" + "lastDigitsNumber=" + lastDigitsNumber + '}';
     }
 
 }
