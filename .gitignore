@@ -32,3 +32,4 @@ nbproject/**
 
 ### VS Code ###
 .vscode/
+/nbproject/
